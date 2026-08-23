@@ -1,4 +1,4 @@
-/* routes.js - validated Bus Sédunois routes provided by user */
+/* routes.js - validated Bus Sédunois routes provided by user (updated BS14 correction) */
 const ROUTES = {
   "BS11": {
     "directions": {
@@ -171,6 +171,7 @@ const ROUTES = {
         "Sacré Cœur",
         "Clarté",
         "Casernes",
+        "Sion, Collège Ella Maillart",
         "Grand Champsec",
         "Valais de Cœur Champsec",
         "Bramois, Petit-Champsec",
