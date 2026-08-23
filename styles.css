@@ -1,0 +1,34 @@
+/* styles.css - mobile-first styles for Treino Bus Sédunois */
+:root{
+  --bg:#ffffff;
+  --card:#f7f7f8;
+  --accent:#0b5cff;
+  --muted:#6b6b6b;
+  --success:#1e9b4a;
+}
+*{box-sizing:border-box}
+html,body,#app{height:100%}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans",sans-serif;background:var(--bg);color:#111}
+main{display:flex;flex-direction:column;min-height:100vh;padding:16px}
+header{padding-bottom:8px}
+h1{font-size:20px;margin:0}
+.lead{margin:6px 0 12px;color:var(--muted)}
+section#content{flex:1;}
+.card-list{display:flex;flex-direction:column;gap:10px}
+.line-card{background:var(--card);padding:14px;border-radius:12px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 1px 0 rgba(0,0,0,0.05);font-weight:600;font-size:18px}
+.button{display:inline-block;padding:12px 16px;border-radius:10px;background:var(--accent);color:#fff;text-align:center}
+.button.secondary{background:#e6e7eb;color:#111}
+.dir-list{display:flex;flex-direction:column;gap:8px}
+.dir-item{background:#fff;border:1px solid #eee;padding:12px;border-radius:10px}
+.route-view{display:flex;flex-direction:column;gap:10px}
+.route-overview{background:#fff;padding:10px;border-radius:10px;overflow:auto;max-height:110px}
+.stop-item{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px}
+.stop-index{width:30px;height:30px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;background:#f0f0f2;font-weight:700}
+.stop-current{background:linear-gradient(90deg,var(--accent),#2aa3ff);color:#fff}
+.stop-done{opacity:0.5;text-decoration:line-through}
+.controls{display:flex;gap:8px;flex-wrap:wrap}
+.big{font-size:18px;padding:14px;border-radius:12px}
+.spacer{height:8px}
+.footer-actions{display:flex;gap:8px;justify-content:space-between}
+.safety{font-size:12px;color:var(--muted);text-align:center;margin:12px 0 0}
+@media(min-width:600px){main{padding:28px}h1{font-size:24px}}

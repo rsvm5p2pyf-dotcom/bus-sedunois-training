@@ -1,0 +1,188 @@
+/* routes.js - validated Bus Sédunois routes provided by user */
+const ROUTES = {
+  "BS11": {
+    "directions": {
+      "Garenne → SUVA": [
+        "Garenne",
+        "Treille",
+        "Châteauneuf",
+        "Furet",
+        "Jonction",
+        "Aéroport",
+        "Potences",
+        "Envol Ouest",
+        "Envol Est",
+        "Cité du Soleil",
+        "St-Guérin",
+        "Planta",
+        "Clinique",
+        "Gare Bus Sédunois",
+        "Les Cèdres",
+        "Place du Midi",
+        "Sacré Cœur",
+        "Pont-du-Rhône",
+        "Vissigen",
+        "Promenade du Rhône",
+        "Manège",
+        "Tennis de Valère",
+        "Hôpital de Sion",
+        "SUVA"
+      ],
+      "SUVA → Garenne": [
+        "SUVA",
+        "Hôpital de Sion",
+        "Tennis de Valère",
+        "Manège",
+        "Promenade du Rhône",
+        "Vissigen",
+        "Pont-du-Rhône",
+        "Sacré Cœur",
+        "Place du Midi",
+        "Les Cèdres",
+        "Gare Bus Sédunois",
+        "Clinique",
+        "Planta",
+        "St-Guérin",
+        "Cité du Soleil",
+        "Envol Est",
+        "Envol Ouest",
+        "Potences",
+        "Aéroport",
+        "Jonction",
+        "Furet",
+        "Châteauneuf",
+        "Treille",
+        "Garenne"
+      ]
+    }
+  },
+  "BS12": {
+    "directions": {
+      "Aproz, village → SUVA": [
+        "Aproz, village",
+        "Camping des Iles",
+        "Tennis Iles",
+        "Les Iles Est",
+        "Roseaux",
+        "Voirie",
+        "Route de la Drague",
+        "Gravière",
+        "Perdrix",
+        "St-Hubert",
+        "Blancherie",
+        "Piscine de la Blancherie",
+        "Gare Sud",
+        "Campus",
+        "Entrepôts",
+        "Collège Ella Maillart",
+        "Cours Roger Bonvin",
+        "Pâquerettes",
+        "Anthémis",
+        "Pôle Santé",
+        "Hôpital de Sion",
+        "SUVA"
+      ],
+      "SUVA → Aproz, village": [
+        "SUVA",
+        "Hôpital de Sion",
+        "Pôle Santé",
+        "Anthémis",
+        "Pâquerettes",
+        "Cours Roger Bonvin",
+        "Collège Ella Maillart",
+        "Entrepôts",
+        "Campus",
+        "Gare Sud",
+        "Piscine de la Blancherie",
+        "Blancherie",
+        "St-Hubert",
+        "Perdrix",
+        "Gravière",
+        "Route de la Drague",
+        "Voirie",
+        "Roseaux",
+        "Les Iles Est",
+        "Tennis Iles",
+        "Camping des Iles",
+        "Aproz, village"
+      ]
+    }
+  },
+  "BS13": {
+    "directions": {
+      "Sion, Gare Bus Sédunois → Sion, EMS Gravelone": [
+        "Sion, Gare Bus Sédunois",
+        "Sion, Clinique",
+        "Sion, Nord",
+        "Sion, Dames Blanches",
+        "Sion, Petit-Chasseur",
+        "Sion, Amandiers",
+        "Sion, EMS Gravelone"
+      ],
+      "Sion, EMS Gravelone → Sion, Gare Bus Sédunois": [
+        "Sion, EMS Gravelone",
+        "Sion, Agasse",
+        "Sion, Gravelone",
+        "Sion, Nord",
+        "Sion, Planta",
+        "Sion, Clinique",
+        "Sion, Gare Bus Sédunois"
+      ]
+    }
+  },
+  "BS14": {
+    "directions": {
+      "Bramois, Pont de Bramois → Sion, Platta": [
+        "Bramois, Pont de Bramois",
+        "Bramois, Ecole",
+        "Bramois, Paradis",
+        "Bramois, Cassières",
+        "Bramois, Clodevis",
+        "Bramois, Glarey",
+        "Bramois, Institut",
+        "Bramois, Orgues",
+        "Bramois, Petit-Champsec",
+        "Sion, Valais de Cœur Champsec",
+        "Sion, Grand Champsec",
+        "Sion, Casernes",
+        "Sion, Collège Ella Maillart",
+        "Sion, Clarté",
+        "Sion, Sacré Cœur",
+        "Sion, Place du Midi",
+        "Sion, Les Cèdres",
+        "Sion, Gare Bus Sédunois",
+        "Sion, Clinique",
+        "Sion, Nord",
+        "Sion, Pôle Musique",
+        "Sion, Vieux-Moulin",
+        "Sion, Carrefour de Platta",
+        "Sion, Platta"
+      ],
+      "Sion, Platta → Bramois, Pont de Bramois": [
+        "Platta",
+        "Carrefour de Platta",
+        "Vieux-Moulin",
+        "Pôle Musique",
+        "Nord",
+        "Clinique",
+        "Gare Bus Sédunois",
+        "Les Cèdres",
+        "Place du Midi",
+        "Sacré Cœur",
+        "Clarté",
+        "Casernes",
+        "Grand Champsec",
+        "Valais de Cœur Champsec",
+        "Bramois, Petit-Champsec",
+        "Bramois, Orgues",
+        "Bramois, Institut",
+        "Bramois, Glarey",
+        "Bramois, Clodevis",
+        "Bramois, Cassières",
+        "Bramois, Paradis",
+        "Bramois, Ecole",
+        "Bramois, Pont de Bramois"
+      ]
+    }
+  }
+};
